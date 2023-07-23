@@ -17,7 +17,7 @@ public class Udpt18clcApplication {
 		SpringApplication.run(Udpt18clcApplication.class, args);
 	}
 
-	@Autowired
+	@Autowired // đánh dấu thuộc tính sẽ được tiêm đối tượng
 	QuanLyNhanSuClient client;
 
 	@RequestMapping(value = "/employee")
